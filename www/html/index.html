@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather forecasting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+
+    <div id="appWrap" class="appWrap">
+
+      <div class="languageSet">
+        <a id="en" class="button">English</a>
+        <a id="hr" class="button">Croatian</a>
+      </div>
+
+    <div class="userMessage">
+      <p id="welcome">Welcome to the weather forecasting page</p>
+    </div>
+      <header>
+        <input type="text" autocomplete="off" class="searchBox" placeholder="Specify your city...">
+        <a id="btn" class="fa fa-search"></a>
+      </header>
+      <main>
+        <section class="location">
+          <div class="current">
+            <div class="temp">
+
+            </div>
+            <div class="weather">
+
+            </div>
+            <img src="" id="weatherIcon"></img>
+            <div class="hiLow">
+
+            </div>
+          </div>
+          <div class="city">
+
+          </div>
+          <div class="date"></div>
+          <div id="time" class="time"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
