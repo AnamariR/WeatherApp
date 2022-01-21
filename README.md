@@ -1,5 +1,5 @@
 # WeatherApp
-
+DOES NOT INCLUDE ALL FILES ( - missing folders: .idea, gen, node_modules, platforms)
 - year 2021.
 - Made for a Uni project
 - No previous knowledge of making Android Apps
